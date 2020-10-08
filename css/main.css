@@ -1,0 +1,42 @@
+
+
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    width: 600px;
+    height: 520px;
+    top: 0px;
+    background: rgb(2, 63, 128);
+    border: 2px solid black;
+    padding: .5rem;
+    box-shadow: 5px 10px #888888;
+
+}
+
+.container table tr td{
+    width: 90px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+div button{
+    position: relative;
+    margin: auto;
+    top: 900px;
+    left: 550px;
+    float: right;
+    margin-left: 100px;
+    box-shadow: 5px 10px #888888;
+}
+
+body {
+    background-image: url("https://i.imgur.com/odLfcwe.jpg");
+}
